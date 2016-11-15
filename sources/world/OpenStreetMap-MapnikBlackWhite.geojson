@@ -1,13 +1,14 @@
 {
     "type": "Feature",
     "properties": {
+        "id": "osm-mapnik-black_and_white",
         "attribution": {
             "url": "http://openstreetmap.org/",
             "text": "© OpenStreetMap contributors, CC-BY-SA",
             "required": true
         },
         "name": "OpenStreetMap (Standard Black & White)",
-        "url": "http://{switch:a,b,c}.www.toolserver.org/tiles/bw-mapnik/{zoom}/{x}/{y}.png",
+        "url": "https://tiles.wmflabs.org/bw-mapnik/{zoom}/{x}/{y}.png",
         "max_zoom": 18,
         "default": true,
         "type": "tms",
